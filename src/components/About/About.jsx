@@ -1,7 +1,7 @@
 import React from 'react'
 import { getImageUrl } from "../../utils";
 
-export default function About() {
+export const About = () => {
   return (
     <section>
         <h2>About</h2>

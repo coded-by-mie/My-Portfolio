@@ -3,7 +3,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Developer } from "./components/Developer/Developer";
 import { About } from "./components/About/About";
 
-function App() {
+export default function App() {
   return(
     <div className={styles.App}>
       <Navbar />
@@ -12,5 +12,3 @@ function App() {
     </div>
   )
 }
-
-export default App
