@@ -3,6 +3,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Developer } from "./components/Developer/Developer";
 import { About } from "./components/About/About";
 import { Experience } from "./components/Experience/Experience";
+import { Projects } from "./components/Projects/Projects";
 
 export default function App() {
   return(
@@ -11,6 +12,7 @@ export default function App() {
       <Developer />
       <About />
       <Experience />
+      <Projects />
     </div>
   )
 }
